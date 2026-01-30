@@ -1,0 +1,14 @@
+{
+  "id": "my.app.calc",
+  "name": "Calculator",
+  "version": "1.0.0",
+  "author": "alice",
+  "url": "https://example.com/apps/calc/index.html",
+  "icon": "fas fa-calculator",
+  "permissions": ["storage"],
+  "install": {
+    "entry": "/apps/calc/index.html",
+    "type": "iframe" // or "embed" for native embedded
+  },
+  "description": "Simple calculator app"
+}
